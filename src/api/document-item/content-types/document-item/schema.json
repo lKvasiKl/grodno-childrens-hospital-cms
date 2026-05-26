@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "document_items",
+  "info": {
+    "singularName": "document-item",
+    "pluralName": "document-items",
+    "displayName": "Documents"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
